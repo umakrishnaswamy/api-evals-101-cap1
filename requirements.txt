@@ -1,0 +1,7 @@
+# Inside Capital One, install the internal wrapper from your internal index
+# instead of the line below — it brings Weave with it:
+#     pip install c1_aiml_aem[weave]
+# The public package is pinned here only so the repo runs on a laptop outside
+# the sandbox (on the scripted mock). Inference comes from the gateway client,
+# c1.aiml.genai.inference, which is already present in the C1 environment.
+weave>=0.53
